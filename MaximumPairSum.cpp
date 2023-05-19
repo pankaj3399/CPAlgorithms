@@ -1,3 +1,15 @@
+/*
+You are given a sequence A[1], A[2], ..., A[N], ( 0 ≤ A[i] ≤ 10^8 , 2 ≤ N ≤ 10^5 ). There are two types of operations and they are defined as follows:
+Update:
+This will be indicated in the input of a 'U' followed by space and then two integers i and x.
+U i x
+This operation sets the value of A[i] to x.
+Query:
+This will be indicated in the input of a 'Q' followed by a single space and then two integers x and y.
+Q x y
+You must find two integers i and j such that x ≤ i, j ≤ y and i != j, such that the sum A[i]+A[j] is maximized. Print the sum A[i]+A[j].
+ */
+
 #include<bits/stdc++.h>
 using namespace std;
 #define M (begin+end)/2
